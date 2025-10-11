@@ -1,0 +1,25 @@
+package conditional_stmt;
+import java.util.*;
+import java.util.Scanner;
+
+public class Fizz_Buzz {
+	public static void main(String[] args) {
+		Scanner sc =new Scanner (System.in);
+		System.out.println("enter the number");
+		int a=sc.nextInt();
+		if(a%3==0&&a%5==0) {
+			System.out.println("Fizz Buzz");
+		}
+		else if(a%3==0) {
+			System.out.println("Fizz");
+		}
+		else if(a%5==0) {
+			System.out.println("Buzz");
+		}
+		else {
+			System.out.println("Invaild ");
+		}
+		System.out.println("Thank you");
+		
+	}
+	}
