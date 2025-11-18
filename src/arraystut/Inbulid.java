@@ -14,9 +14,9 @@ public class Inbulid {
 		System.out.println(Arrays.toString(arr));
 		int area[]=Arrays.copyOf(arr, 2);
 		System.out.println(Arrays.toString(area));
+		System.out.println(dest);*/
 		int dest[]=new int [5];
 		System.arraycopy(arr,2,dest,5,arr.length-2);
-		System.out.println(dest);*/
 
 	}
 }

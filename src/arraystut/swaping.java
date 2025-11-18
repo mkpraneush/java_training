@@ -1,7 +1,5 @@
 package arraystut;
-
 import java.util.Arrays;
-
 public class swaping {
 	public static void main(String[] args) {
 		int arr[]={24,34,45,57,89};
